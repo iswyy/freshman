@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/static/webStatic/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 0.8fr 1.4fr 0.8fr;
+    grid-template-rows: 0.3fr 1.3fr 1.4fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "head-title head-title head-title"
+        "class-report main right"
+        "report-list main right";
+    color: #fff;
+    background-image: url(../../assets/static/webStatic/bg1.png);
+}
+
+.head-title {
+    display: grid;
+    grid-template-columns: 0.8fr 1.3fr 0.8fr;
+    grid-area: head-title;
+    width: 100%;
+    background-image: url(../../assets/static/webStatic/head_bg.png);
+    background-size: 100% 100%;
+}
+
+.left {
+    grid-area: left;
+}
+
+.main {
+    grid-area: main;
+    padding: 0 2rem;
+}
+
+.right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.9fr 1fr 1.1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "all-ratio all-ratio all-ratio"
+        "report-most report-most report-most"
+        "male-ratio male-ratio male-ratio";
+    grid-area: right;
+}
+
+.all-ratio {
+    grid-area: all-ratio;
+    background-image: url(../../assets/static/webStatic/panel.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 0.5rem;
+}
+
+.report-most {
+    grid-area: report-most;
+    background-image: url(../../assets/static/webStatic/panel.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 0.5rem;
+}
+
+.male-ratio {
+    grid-area: male-ratio;
+    position: relative;
+    background-image: url(../../assets/static/webStatic/panel.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.class-report {
+    grid-area: class-report;
+    padding-right: 5%;
+    background-image: url(../../assets/static/webStatic/panel.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 0.5rem;
+}
+
+.report-list {
+    grid-area: report-list;
+    background-image: url(../../assets//static/webStatic/panel.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.head-title .title {
+    font-size: 3.8rem;
+    letter-spacing: 0.5rem;
+    font-family: "阿里巴巴普惠体";
+    text-align: center;
+    align-self: center;
+}
+
+.head-title .current-time,
+.march-soft {
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    align-self: center;
+}
+
+.title,
+.current-time,
+.march-soft {
+    margin-top: -1.5rem;
+}
+
+.current-time {
+    color: #ffe968;
+}
+
+.titleName {
+    opacity: 1;
+    background: linear-gradient(to right, rgba(13, 58, 99, 0.03) 0%, rgba(9, 63, 107, 0.79) 50%, rgba(13, 58, 99, 0.03) 100%);
+    background-size: auto;
+    line-height: 4rem;
+    font-size: 3rem;
+    letter-spacing: 0.asdrem;
+    text-align: center;
+    font-family: "庞门正道标题体";
+    text-shadow: 0px 0px 7.56px rgba(21, 154, 255, 1);
+    padding-left: 1em;
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+}
+
+.barBox {
+    height: 85%;
+    padding: 0 5%;
+}
+
+.bestInfo {
+    padding: 0 5%;
+
+}
+
+.bestItem {
+    height: 3.5rem;
+    opacity: 1;
+    font-size: 2.5rem;
+    font-family: "阿里巴巴普惠体";
+    margin-bottom: 0.5%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.bestContent {
+    color: rgba(32, 180, 250, 1);
+    text-shadow: 0px 0px 8px rgba(32, 180, 250, 0.58);
+}
+
+.bestNum {
+    color: #fff;
+}

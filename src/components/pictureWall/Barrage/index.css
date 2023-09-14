@@ -1,0 +1,40 @@
+.barrageOutBox {
+   height: 80%;
+}
+
+.barrageContent {
+   width: fit-content;
+   float: left;
+   padding: 10px;
+   border-radius: 20px;
+   margin-right: 60px;
+   color: tomato;
+   display: flex;
+   align-items: center;
+   font-size: 1.5rem;
+}
+
+.item-img {
+   width: 40px;
+   height: 40px;
+   margin-right: 10px;
+}
+
+.item-text {
+   font-size: 2.0rem;
+}
+
+.item-img img {
+   border-radius: 50%;
+}
+
+@keyframes scrollLeft {
+   0% {
+      transform: translateX(0);
+
+   }
+
+   100% {
+      transform: translateX(-100%);
+   }
+}

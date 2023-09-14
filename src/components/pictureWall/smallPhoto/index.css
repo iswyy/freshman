@@ -1,0 +1,121 @@
+.bBox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.leftPhotoBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 97.5%;
+
+
+
+
+.studentNameBox {
+    color: #fff;
+    font-size: 20px;
+    /* margin-bottom: 5px; */
+}
+
+.studentMessage {
+    color: rgba(252, 252, 252, 1);
+}
+
+
+
+.fourthBox,
+.fifth,
+.sixth {
+    display: flex;
+    border-radius: 10px;
+    width: 100%;
+    height: 32%;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+
+    /* background-color: rgba(17, 106, 213, 1); */
+}
+
+.sixB {
+    border-bottom: 3px solid transparent;
+    /* 透明的实线边框 */
+    border-image: radial-gradient(#72aaf7, #4c90f07b, #4c90f000);
+    /* 渐变边框 */
+    border-image-slice: 1;
+    /* 将边框渐变应用到整个边框 */
+}
+
+
+.fourthBox img,
+.fifth img,
+.sixth img {
+    width: 47%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.fourthLeftBox {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 0px 0px 0px 18px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: cursive;
+
+
+}
+
+.LeftOne {
+    width: fit-content;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(79, 79, 134, 0.5);
+    margin: 0px 0px 15px;
+    font-family: math;
+}
+
+.LeftTwo {
+    font-size: 24px;
+    font-family: cursive;
+    margin-right: 4px;
+    font-weight: 600;
+}
+
+.LeftThree {
+    width: 100%;
+    font-family: cursive;
+}
+
+.LeftFive {
+    /* width: 100%; */
+    font-family: cursive;
+}
+
+.LeftSix {
+    width: 100%;
+    height: 85px;
+    line-height: 21px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*弹性伸缩盒子模型显示*/
+    display: -webkit-box;
+    /*限制在一个块元素显示的文本的行数*/
+    -webkit-line-clamp: 4;
+    /*设置或检索伸缩盒对象的子元素的排列方式*/
+    -webkit-box-orient: vertical;
+    font-family: cursive;
+    margin-top: 5px;
+}

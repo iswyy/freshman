@@ -1,0 +1,143 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.outSide {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(26 57 95 / 84%); */
+    /* background-image: linear-gradient(to right, #a8edea 0%, #fed6e3 100%); */
+    background-image: url(../../assets/static/webStatic/bg.jpg);
+    /* padding-top: 20px; */
+}
+
+.outSideUp {
+    display: grid;
+    font-family: "阿里巴巴普惠体";
+    grid-template-columns: 0.9fr 1.1fr 0.9fr;
+    grid-area: head-title;
+    width: 100%;
+    height: 10%;
+    background-image: url(../../assets/static/webStatic/head_bg.png);
+    background-size: 100% 100%;
+}
+
+.outSideUp div {
+    margin-top: -1.5rem;
+    font-size: 5rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    align-self: center;
+}
+
+.outSideUp:nth-child(1) {
+    color: #ffe968;
+}
+
+/* .outSideUp div {
+    height: 100%;
+    width: 33%;
+    text-align: center;
+    color: #ffe968;
+    font-family: '阿里巴巴普惠体';
+    font-size: 50px;
+} */
+
+.outSideDown {
+    display: flex;
+    width: 100vw;
+    height: 90%;
+    background-size: 100% 100%;
+    padding: 10px 10px;
+}
+
+.big {
+    width: 75% !important;
+    display: flex;
+    flex-direction: row !important;
+    border-top: 2px solid #5cc0fc;
+    border-right: 2px solid #5cc0fc;
+    border-image: radial-gradient(#5cc0fc, #5cbffcd8, #5cbffc00);
+    border-image-slice: 1;
+    padding: 10px;
+}
+
+.smallphoto {
+
+    border-bottom: 2px solid #5cc0fc;
+    border-image: radial-gradient(#5cc0fc, #5cbffcd8, #5cbffc00);
+    border-image-slice: 1;
+}
+
+.smallphoto:after {
+    position: absolute;
+    width: 4rpx;
+    height: 100rpx;
+    left: 37%;
+    left: 0;
+    background-color: #00C09C;
+}
+
+.photoLeftBox {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 65%;
+}
+
+/* .photoRightBox {
+    height: 100%;
+    border-radius: 40px;
+    padding: 0px 10px;
+} */
+
+.barrageBox {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.photoBox {
+    width: 100%;
+    height: 50vh;
+    margin-right: 20px;
+    border-left: 2px solid #5cc0fc;
+    border-image: radial-gradient(#5cc0fc, #5cbffcd8, #5cbffc00);
+    border-image-slice: 1;
+    box-shadow: inset 0px 0px 20px #5cbffc87;
+    margin-right: 20px;
+    /* padding: 10px; */
+    /* border: 2px solid #2014c2db; */
+    /* background: radial-gradient(52.58% 35.23%, rgba(56, 91, 207, 1) 0%, rgba(13, 29, 133, 1) 31.74%, rgba(32, 3, 84, 1) 82.07%, rgba(18, 2, 51, 1) 100%); */
+}
+
+.messageBox {
+    width: 100%;
+    height: 100%;
+    background-image: url('/src/assets/static/webStatic/border.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    /* padding: 10px; */
+    border-bottom: 3px solid #3592df;
+    border-image: radial-gradient(#3592df, #3593df9a, rgba(104, 195, 247, 0));
+    /* 渐变边框 */
+    border-image-slice: 1;
+}
+
+.megBig {
+
+    width: 100%;
+    height: 50vh;
+    
+    border-top: 3px solid #3592df;
+    border-right: 3px solid #3592df;
+    border-image: radial-gradient(#3592df, #3593dfc6, rgba(104, 195, 247, 0.092));
+    /* 渐变边框 */
+    border-image-slice: 1;
+}

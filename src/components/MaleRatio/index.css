@@ -1,0 +1,40 @@
+/* .male-report {
+  width: 100%;
+  height: 30%;
+  position: relative;
+  background-image: url(../../assets/static/webStatic/panel.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+} */
+
+.pie {
+  height: 75%;
+  display: flex;
+  color: #e160ae;
+}
+
+.tip {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+  height: 25%;
+}
+
+/* .tip .boy,
+.girl {
+  width: 45%;
+  font-size: 1.5rem;
+} */
+
+.tip p:nth-child(1) {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+/* .tip p:nth-child(2) {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+} */
